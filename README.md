@@ -10,7 +10,7 @@ Small Flask Microservice that makes change
 
 ## Invoke Endpoint
 
-* Create virtualenv and source it: `python3 -m venv ~/.fcm && source ~/.venv/bin/fcm`
+* Create virtualenv and source it: `python3 -m venv ~/.kube-hello && source ~/.kube-hello/bin/activate`
 * Install and Test:  `make all`
 * Run it:  `python app.py`
 * Invoke it.  Options include curl, Postman, httpie.  These methods are documented below
