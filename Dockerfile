@@ -5,6 +5,7 @@ WORKDIR /app
 
 # Copy source code to working directory
 COPY . /app/
+COPY . app.py requirements.txt /app/
 
 # Install packages from requirements.txt
 RUN pip install --no-cache-dir --upgrade pip &&\
